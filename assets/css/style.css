@@ -345,6 +345,10 @@ h6 {
   color: #a80041;
 }
 
+#hero strong {
+  color: #a80041;
+}
+
 @media (max-width: 992px) {
   #hero {
     text-align: center;
