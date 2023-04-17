@@ -3,7 +3,6 @@ I built a new personal website based on the new technologies, skills, and method
 
 **Link to project:** https://danyalimran.com/
 
-![alt tag](http://placecorgi.com/1200/650)
 
 ## How It's Made:
 
@@ -17,4 +16,4 @@ I cut out some fancy JS animations to reduce load time and bloat with my website
 
 ## Lessons Learned:
 
-I learned that good front-end is not just something that looks great to engineers, but to lay-man folx too. You got to make things as simply and easy to navigate as possible. I had realized adding prompts, clickable elements, and directing the user to other parts of the website they usually wouldn't go to were necessary to make sure that my website is easy to navigate.
+I learned that good front-end is not just something that looks great to engineers, but to lay-man folx too. You got to make things as simply and easy to navigate as possible. I had realized adding prompts, clickable elements, and directing the user to other parts of the website they usually wouldn't go to were necessary to make sure that my website was easy to navigate.
