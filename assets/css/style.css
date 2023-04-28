@@ -190,7 +190,6 @@ h6 {
   background: #f2f3f5;
   height: 56px;
   width: 100%;
-
 }
 
 .nav-menu a i,
@@ -208,15 +207,9 @@ h6 {
 
   .nav-menu a,
   .nav-menu a:focus {
-    width: 56px;
+    width: auto;
   }
 
-  .nav-menu a span,
-  .nav-menu a:focus span {
-    display: none;
-    color: #fff;
-  }
-}
 
 .nav-menu a:hover,
 .nav-menu .active,
@@ -242,6 +235,7 @@ h6 {
 .nav-menu a:hover span,
 .nav-menu li:hover>a span {
   display: block;
+}
 }
 
 /**
