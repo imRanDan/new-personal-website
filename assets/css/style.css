@@ -836,16 +836,16 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+button.form-button {
   background: #45505b;
-  border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  margin: auto auto;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.form-button:hover {
   background: #a80041;
 }
 
