@@ -12,7 +12,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   color: #272829;
 }
 
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /*--------------------------------------------------------------
@@ -190,8 +190,7 @@ h6 {
   background: #f2f3f5;
   height: 56px;
   width: 100%;
-  overflow: hidden;
-  transition: 0.3s;
+
 }
 
 .nav-menu a i,
@@ -202,7 +201,7 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #45505b;   
 }
 
 @media (min-width: 992px) {
@@ -320,7 +319,7 @@ h6 {
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #hero p span {
@@ -881,7 +880,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   padding: 0;
   margin: 0 0 15px 0;
 }
