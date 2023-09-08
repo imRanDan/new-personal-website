@@ -363,6 +363,22 @@ h6 {
   }
 }
 
+
+/*--------------------------------------------------------------
+# Projects section
+--------------------------------------------------------------*/
+.project {
+  background-size: cover;  /* This will cover the entire viewport of the .project section */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-position: center center; /* This centers the image */
+
+  /* Make sure the section is tall enough to display the image, for demonstration */
+  height: 500px; 
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
