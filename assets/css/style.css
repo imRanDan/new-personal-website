@@ -760,15 +760,20 @@ section {
 
 .projects {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+
 }
 
 .project-square {
   border: 1px solid #ff0000;
-  padding: 3em;
+  padding: 1em;
   margin: 1em;
+}
+
+.project-square img {
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
