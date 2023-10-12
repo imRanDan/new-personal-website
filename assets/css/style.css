@@ -517,6 +517,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio {
+  padding: 8em 0;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -734,6 +738,37 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.portfolio-view-more {
+  text-align: center;
+}
+
+.portfolio-view-more a {
+  color: var(--clr-accent)
+}
+
+/* Portfolio Details Custom */
+
+.project-details {
+
+}
+
+.project-details h1 {
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-square {
+  border: 1px solid #ff0000;
+  padding: 3em;
+  margin: 1em;
 }
 
 /*--------------------------------------------------------------
