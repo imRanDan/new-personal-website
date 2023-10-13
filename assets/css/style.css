@@ -767,21 +767,55 @@ section {
 }
 
 .project-square {
-  /* border: 1px solid grey; */
   margin: 1em;
 }
 
 .project-square h2 {
-  
+  margin-top: 1em;
+  border-bottom: 1px solid #a80041;
 }
 
 .project-square img {
   width: 100%;
+  border: 1px dotted blue;
+}
+
+.project-tech{
+  padding: 1em 0;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-links a{
+  padding: 1em 1.5em;
+  margin: 1em 0.5em;
+  border-radius: 8px;
+  background-color: grey;
+  width: 100%;
+  text-align: center;
 }
 
 @media (min-width: 968px) {
   .projects {
     flex-direction: row;
+  }
+
+  .project-square {
+    width: 33%;
+  }
+
+  .project-links {
+    flex-direction: row;
+  }
+
+  .project-links a{
+    width: auto;
+    margin: 0 1.5em;
   }
 }
 
